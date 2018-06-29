@@ -49,26 +49,21 @@ function shuffle(carte){  /* FONCTION PLACEMENT ALEATOIRE DES CARTES / Nathan */
 		console.log (carte);
 
 
-/* function shuffle(card_arr)
-{
-   var j = 0;
-   var valI = '';
-   var valJ = valI;
-   var l = card_arr.length - 1;
+var image = new Image();
+var image2 = new Image();
+var image3 = new Image();
+var image4 = new Image();
 
-   while(l > -1)
-   {
-		j = Math.floor(Math.random() * l);
-		valI = card_arr[l];
-		valJ = card_arr[j];
-		card_arr[l] = valJ;
-		card_arr[j] = valI;
-		l = l - 1;
-	}
-	console.log(card_arr);
-	return card_arr;
- };
-console.log(carte);*/
+for(i=0; i<4; i++){
+    
+   image.src = 'astrefle.png';
+   array.push(image);
+   image2.src = 'ascarreau.png';
+   array.push(image2);
+   image3.src = 'ascoeur.png';
+   array.push(image3);
+   image4.src = 'astrefle.png';
+   array.push(image4);   }
 
 
 
